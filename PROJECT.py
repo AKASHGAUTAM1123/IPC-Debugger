@@ -140,7 +140,26 @@ def setup_gui():
 
     app.mainloop()
 
-
+from datetime import datetime
+def update_output(output_widget, message):
+     """Updates the GUI output area with timestamps."""
+     timestamp = datetime.now().strftime("[%H:%M:%S] ")
+     output_widget.insert(tk.END, timestamp + message)
+     output_widget.see(tk.END)
 # Main Execution
 if __name__ == "__main__":
     setup_gui()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
