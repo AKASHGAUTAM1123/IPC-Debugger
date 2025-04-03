@@ -1,0 +1,11 @@
+2025-04-04 00:59:17 - ---- IPC Debugger ----
+2025-04-04 00:59:17 - [PIPE] Received: Hello from child process through pipe
+2025-04-04 00:59:17 - [SHM] Written: Shared Memory Data
+2025-04-04 00:59:17 - [SEMAPHORE] Locked
+2025-04-04 00:59:18 - [SEMAPHORE] Unlocked
+2025-04-04 00:59:19 - [SOCKET] Received: Hello from socket client!
+2025-04-04 00:59:19 - IPC Monitoring Completed!
+2025-04-04 00:59:21 - [THREAD] Thread 2 completed task
+2025-04-04 00:59:21 - [THREAD] Thread 0 completed task
+2025-04-04 00:59:30 - [ACTIVE PROCESSES]
+2025-04-04 00:59:35 - [ACTIVE PROCESSES]
