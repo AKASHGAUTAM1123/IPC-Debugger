@@ -6,6 +6,11 @@ from tkinter import scrolledtext
 from multiprocessing import Process, Queue, Pipe, Semaphore, shared_memory
 
 
+# Global list to track running processes
+processes = []
+ 
+ 
+
 # Separate child function for multiprocessing
 def child(pipe):
     """Child process sends data through pipe."""
@@ -110,6 +115,13 @@ def update_output(output_widget, message):
 def clear_output(output_widget):
       """Clears the output log."""
       output_widget.delete(1.0, tk.END)
+      # Stop running processes
+def stop_debugger(output_widget):
+     """Stops all running IPC processes."""
+     for proc in processes:
+         if proc.is_alive():
+             proc.terminate()
+     update_output(output_widget, "\n[STOPPED] All IPC processes terminated.\n")
 # Run the IPC Debugger
 def run_debugger(output_widget):
     """Runs the entire IPC debugger."""
@@ -143,7 +155,11 @@ def setup_gui():
     btn = tk.Button(app, text="Run Debugger", command=lambda: run_debugger(output_text), bg="green", fg="white",
                       font=("Helvetica", 12))
     btn.pack(pady=5)
+    stop_btn = tk.Button(app, text="Stop Debugger", command=lambda: stop_debugger(output_text), bg="orange", fg="white", font=("Helvetica", 12))
+    stop_btn.pack(pady=5)
  
+ 
+
     app.geometry("800x500")
 
     tk.Label(app, text="Inter-Process Communication (IPC) Debugger", font=("Helvetica", 16, "bold")).pack(pady=10)
