@@ -181,6 +181,7 @@ def setup_gui():
     app = tk.Tk()
     app.title("Enhanced IPC Debugger")
     app.geometry("850x550")
+    
 
     # Output log area
     output_text = scrolledtext.ScrolledText(app, wrap=tk.WORD, width=100, height=20, font=("Courier", 10))
