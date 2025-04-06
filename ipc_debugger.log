@@ -1,0 +1,87 @@
+2025-04-06 14:03:18 - ---- IPC Debugger ----
+2025-04-06 14:03:18 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:03:18 - [SHM] Written: Shared Memory Data
+2025-04-06 14:03:18 - [SEMAPHORE] Locked
+2025-04-06 14:03:19 - [SEMAPHORE] Unlocked
+2025-04-06 14:03:20 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:03:20 - IPC Monitoring Completed!
+2025-04-06 14:03:22 - [THREAD] Thread 2 completed task
+2025-04-06 14:03:22 - [THREAD] Thread 1 completed task
+2025-04-06 14:03:28 - [ACTIVE PROCESSES]
+2025-04-06 14:03:31 - [STOPPED] All IPC processes and threads terminated.
+2025-04-06 14:07:45 - ---- IPC Debugger ----
+2025-04-06 14:07:45 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:07:45 - [SHM] Written: Shared Memory Data
+2025-04-06 14:07:45 - [SEMAPHORE] Locked
+2025-04-06 14:07:46 - [SEMAPHORE] Unlocked
+2025-04-06 14:07:47 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:07:47 - IPC Monitoring Completed!
+2025-04-06 14:07:49 - [THREAD] Thread 2 completed task
+2025-04-06 14:07:49 - [THREAD] Thread 0 completed task
+2025-04-06 14:07:49 - [THREAD] Thread 1 completed task
+2025-04-06 14:07:52 - [ACTIVE PROCESSES]
+2025-04-06 14:09:30 - ---- IPC Debugger ----
+2025-04-06 14:09:30 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:09:30 - [SHM] Written: Shared Memory Data
+2025-04-06 14:09:30 - [SEMAPHORE] Locked
+2025-04-06 14:09:31 - [SEMAPHORE] Unlocked
+2025-04-06 14:09:32 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:09:32 - IPC Monitoring Completed!
+2025-04-06 14:09:34 - [THREAD] Thread 1 completed task
+2025-04-06 14:09:34 - [THREAD] Thread 2 completed task
+2025-04-06 14:11:27 - ---- IPC Debugger ----
+2025-04-06 14:11:27 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:11:27 - [SHM] Written: Shared Memory Data
+2025-04-06 14:11:27 - [SEMAPHORE] Locked
+2025-04-06 14:11:28 - [SEMAPHORE] Unlocked
+2025-04-06 14:11:30 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:11:30 - IPC Monitoring Completed!
+2025-04-06 14:11:32 - [THREAD] Thread 0 completed task
+2025-04-06 14:11:32 - [THREAD] Thread 1 completed task
+2025-04-06 14:17:57 - ---- IPC Debugger ----
+2025-04-06 14:17:57 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:17:57 - [SHM] Written: Shared Memory Data
+2025-04-06 14:17:57 - [SEMAPHORE] Locked
+2025-04-06 14:17:58 - [SEMAPHORE] Unlocked
+2025-04-06 14:17:59 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:18:27 - ---- IPC Debugger ----
+2025-04-06 14:18:27 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:18:27 - [SHM] Written: Shared Memory Data
+2025-04-06 14:18:27 - [SEMAPHORE] Locked
+2025-04-06 14:18:28 - [SEMAPHORE] Unlocked
+2025-04-06 14:18:30 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:18:30 - IPC Monitoring Completed!
+2025-04-06 14:18:30 - ---- IPC Debugger ----
+2025-04-06 14:18:30 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:18:30 - [SHM] Written: Shared Memory Data
+2025-04-06 14:18:30 - [SEMAPHORE] Locked
+2025-04-06 14:18:31 - [SEMAPHORE] Unlocked
+2025-04-06 14:18:32 - [THREAD] Thread 0 completed task
+2025-04-06 14:18:32 - [THREAD] Thread 2 completed task
+2025-04-06 14:18:32 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:18:32 - IPC Monitoring Completed!
+2025-04-06 14:18:34 - [THREAD] Thread 0 completed task
+2025-04-06 14:18:34 - [THREAD] Thread 1 completed task
+2025-04-06 14:18:34 - [THREAD] Thread 2 completed task
+2025-04-06 14:20:17 - ---- IPC Debugger ----
+2025-04-06 14:20:17 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:20:17 - [SHM] Written: Shared Memory Data
+2025-04-06 14:20:17 - [SEMAPHORE] Locked
+2025-04-06 14:20:18 - [SEMAPHORE] Unlocked
+2025-04-06 14:20:19 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:20:19 - IPC Monitoring Completed!
+2025-04-06 14:20:21 - [THREAD] Thread 0 completed task
+2025-04-06 14:20:21 - [THREAD] Thread 2 completed task
+2025-04-06 14:20:21 - [THREAD] Thread 1 completed task
+2025-04-06 14:20:26 - [STOPPED] All IPC processes and threads terminated.
+2025-04-06 14:20:27 - [ACTIVE PROCESSES]
+2025-04-06 14:22:50 - ---- IPC Debugger ----
+2025-04-06 14:22:50 - [PIPE] Received: Hello from child process through pipe
+2025-04-06 14:22:50 - [SHM] Written: Shared Memory Data
+2025-04-06 14:22:50 - [SEMAPHORE] Locked
+2025-04-06 14:22:51 - [SEMAPHORE] Unlocked
+2025-04-06 14:22:52 - [SOCKET] Received: Hello from socket client!
+2025-04-06 14:22:52 - IPC Monitoring Completed!
+2025-04-06 14:22:54 - [THREAD] Thread 1 completed task
+2025-04-06 14:22:54 - [THREAD] Thread 0 completed task
+2025-04-06 14:22:54 - [THREAD] Thread 2 completed task
